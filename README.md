@@ -1,2 +1,3 @@
 # Bug-injection-and-prediction-in-RTL-codes
-I am creating a project where it injects bugs in verilog codes and trains a ML model to predict possible bugs in the code
+Manual debugging of RTL is time consuming. By injecting controlled faults and training ML classifiers on the resulting behavior, we can learn mappings from symptoms (traces, outputs, waveforms) to bug classes. This enables faster triage and can assist designers in locating likely fault types.
+This project takes an 8-bit CPU RTL, injects systematic bugs into the design, runs simulations to collect behavioral outputs, and trains machine-learning models that predict which kind of bug is present from the observed outputs. The goal is to explore automated bug detection/localization in digital designs using ML.
