@@ -6,6 +6,7 @@ module v8cpu_alu_tb;
     wire [7:0] c;
     wire [7:0] newFlags;
     v8cpu_alu uut (.a(a), .b(b), .op(op), .c(c), .flags(8'b0), .newFlags(newFlags));
+
     integer outfile;
     initial begin
         outfile = $fopen("simulation_output.log", "w");
