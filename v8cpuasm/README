@@ -1,0 +1,14 @@
+v8cpuasm
+Vanya A. Sergeev - vsergeev at gmail
+
+v8cpu two-pass assembler written in Python
+See http://dev.frozeneskimo.com/embedded_projects/v8cpu
+
+v8cpuasm.py	- Two-pass assembler for v8cpu
+gencoe.py	- Generates a Xilinx ISE WebPACK compatible .coe memory
+		  initialization file from a Verilog memory dat file created
+		  by v8cpuasm.
+
+programs/	- Various test programs for v8cpu and the corresponding
+		  generated .dat / .coe files.
+
